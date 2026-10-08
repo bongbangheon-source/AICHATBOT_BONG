@@ -1,4 +1,4 @@
-# 미니챗
+# 봉미나이
 
 HTML, CSS, JavaScript와 Node.js / Express 기반 AI 챗봇입니다. OpenAI Chat Completions API의 `gpt-4o-mini`를 사용합니다.
 

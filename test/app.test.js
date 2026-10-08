@@ -34,7 +34,7 @@ test('대화 전체, 서버 시스템 지침, 지정 모델을 전달한다', as
     assert.deepEqual(await response.json(), { reply: '민수님이에요.' });
     const page = await fetch(base);
     assert.equal(page.status, 200);
-    assert.match(await page.text(), /미니챗/);
+    assert.match(await page.text(), /봉미나이/);
   });
 });
 
