@@ -1,0 +1,13 @@
+{
+  "name": "mini-ai-chatbot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env local.js",
+    "dev": "node --watch --env-file-if-exists=.env local.js",
+    "test": "node --test"
+  },
+  "engines": { "node": "24.x" },
+  "dependencies": { "express": "^5.1.0" }
+}
